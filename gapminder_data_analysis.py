@@ -1,5 +1,6 @@
 # Importing the required libraries
 # Note %matplotlib inline works only for ipython notebook. It will not work for PyCharm. It is used to show the plot distributions
+# Make sure to put %matplotlib inline as the first line of code when visualising plots. Also in pyCharm IDE use plt.show() to see the plot
 %matplotlib inline 
 import pandas as pd
 import numpy as np
