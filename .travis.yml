@@ -6,3 +6,9 @@ python:
 install:
   - pip install -r requirements.txt
 sudo: false
+env:
+  global:
+    - CI=true
+  matrix:
+    - TEST_DOC=false
+    - TEST_DOC=true
